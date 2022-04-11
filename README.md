@@ -1,9 +1,10 @@
-# rmuinotify
+# muinotify
 
 #### Notification System with @MUI Alerts - ReactJs
 
-this library helps pu to stack material ui alerts on top of each others and handles the states automatically.
-you have the power of MUI components such az Alert, Stack and Transitions to show your alert component.
+Muinotify has an imperative API that makes it easy to display snackbars, without having to handle their open/close state. It also enables you to stack them on top of one another (although this is discouraged by the Material Design guidelines).
+
+
 
 \*\* in near future you can add your own components to replacing Material UI Components if you want.
 
