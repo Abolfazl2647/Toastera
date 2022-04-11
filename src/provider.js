@@ -1,4 +1,3 @@
-import React from "react";
 import { createPortal } from "react-dom";
 import Notifier from "./context";
 import NotifyWrapper from "./notifyWrapper";
