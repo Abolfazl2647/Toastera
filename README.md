@@ -1,4 +1,4 @@
-# rezvani-muinotify
+# rmuinotify
 
 #### Notification System with @MUI Alerts - ReactJs
 
