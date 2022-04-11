@@ -53,7 +53,8 @@ class App extends Component {
 export default App;
 
 
-const Application = ({notifier}) => {
+const Application = () => {
+const { notifier } = useNotifier();  
   return (
     <button
         onClick={() => {
