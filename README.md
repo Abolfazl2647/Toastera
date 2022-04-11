@@ -23,7 +23,7 @@ You Don't have to use options
 
 ```
 import React from "react";
-import { NotifierProvider, withNotifier } from "rezvani-muinotify";
+import { NotifierProvider, withNotifier } from "muinotify";
 
 class App extends Component {
 
