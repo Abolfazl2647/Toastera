@@ -22,5 +22,27 @@
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abolfazl2647/muinotify.git"
+  },
+  "keywords": [
+    "muinotify",
+    "multiple",
+    "react",
+    "javascript",
+    "material-ui",
+    "mui",
+    "@mui",
+    "toast",
+    "snackbar",
+    "alerts",
+    "notification",
+    "material design",
+    "rezvani",
+    "amir",
+    "abolfazl",
+    "amirrezvani.me"
+  ]
 }
