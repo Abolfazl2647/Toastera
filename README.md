@@ -73,7 +73,7 @@ const Application = ({notifier}) => {
 
 <hr>
 
-### Available Props:
+### Available Props:   
 
 Default values are into `[ ]`
 
@@ -90,3 +90,4 @@ Default values are into `[ ]`
 | **AlertProps**          | [{}], 'OBJECT'                                        | All Alert props of MUI Alert can be pass through this                                       | closeText, iconMapping, severity, variant, [etc](https://mui.com/api/alert/).        |
 | **TransitionProps**     | [{}], 'OBJECT'                                        | All TRansition props base on selected transition of MUI Transition can be pass through this | choose Fade then have appear, easing, in, timeout, [etc](https://mui.com/api/fade/). |
 | **customAlert**     | [], 'FUNCTION'                                        | you can pass any component as an alert | you have access to all options inside of this function [render props](https://reactjs.org/docs/render-props.html). |
+| **preventDuplicate**     | [false], 'BOOL'                                        | prevent duplicate alert messages | just pass this no ignore same alert messages to show |
