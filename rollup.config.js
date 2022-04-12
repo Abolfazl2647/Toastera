@@ -20,7 +20,14 @@ export default [
     plugins: [
       babel({
         exclude: "node_modules/**",
-        presets: ["@babel/preset-react", "@emotion/babel-preset-css-prop"],
+        presets: [
+          [
+            "@babel/preset-react",
+            {
+              runtimeHelpers: true,
+            },
+          ],
+        ],
       }),
       external(),
       resolve(),
