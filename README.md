@@ -21,7 +21,7 @@ You Don't have to use options
 
 ```
 import React from "react";
-import { NotifierProvider, withNotifier } from "muinotify";
+import { MuiNotifyProvider, withNotifier } from "muinotify";
 
 class App extends Component {
 
@@ -30,7 +30,7 @@ class App extends Component {
       <div className="App_Wrapper">
 
 
-      <NotifierProvider
+      <MuiNotifyProvider
          maxNotif={4}
         // preventDuplicate
         position="top-right"
@@ -43,7 +43,7 @@ class App extends Component {
         customAlert={(data) => <CustomAlert {...data} />}
       >
         <Application />
-      </NotifierProvider>
+      </MuiNotifyProvider>
 
       </div>
     );
