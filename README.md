@@ -9,7 +9,6 @@
 
 Muinotify has an imperative API that makes it easy to display snackbars, without having to handle their open/close state. It also enables you to stack them on top of one another (although this is discouraged by the Material Design guidelines).
 
-
 ### Installing:
 
 you need to install @MUI first so:
@@ -137,3 +136,10 @@ Default values are into `[ ]`
 | **TransitionProps**     | [{}], 'OBJECT'                                        | All TRansition props base on selected transition of MUI Transition can be pass through this | choose Fade then have appear, easing, in, timeout, [etc](https://mui.com/api/fade/).                               |
 | **customAlert**         | [], 'FUNCTION'                                        | you can pass any component as an alert                                                      | you have access to all options inside of this function [render props](https://reactjs.org/docs/render-props.html). |
 | **preventDuplicate**    | [false], 'BOOL'                                       | prevent duplicate alert messages                                                            | just pass this no ignore same alert messages to show                                                               |
+
+### Author - Contact
+
+Amir Rezvani
+
+<a href="https://www.linkedin.com/in/abolfazl2647"><img src="https://github.com/abolfazl2647/Rentaly/blob/master/Gifs/linkedin.png" alt="Amir Rezvani Linkedin profile" align="right" width="32" height="32"/></a>
+<a href="mailto:rezvani.frontdev@gmail.com"><img src="https://github.com/abolfazl2647/Rentaly/blob/master/Gifs/contact.png" alt="Amir Rezvani email address" align="right" width="32" height="32"/></a>
