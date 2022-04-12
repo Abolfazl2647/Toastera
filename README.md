@@ -1,5 +1,10 @@
 # muinotify
 
+<a href="https://www.npmjs.com/package/muinotify"><img alt="Downloads" src="http://img.shields.io/npm/dm/muinotify.svg"></a>
+[![npm](https://img.shields.io/npm/dt/muinotify.svg)](https://www.npmjs.com/package/muinotify)
+<a href="https://www.npmjs.com/package/muinotify"><img alt="npm version" src="https://badge.fury.io/js/muinotify.svg"></a>
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
 #### Notification System with @MUI Alerts - ReactJs
 
 Muinotify has an imperative API that makes it easy to display snackbars, without having to handle their open/close state. It also enables you to stack them on top of one another (although this is discouraged by the Material Design guidelines).

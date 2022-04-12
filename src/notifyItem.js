@@ -44,7 +44,6 @@ const NotifyItem = (props) => {
   }, [timeOut, isPersist, isMounted]);
 
   useEffect(() => {
-    // if (!isEntered) console.log("id", id, isEntered);
     if (!isEntered) setOpen(false);
   }, [isEntered, id]);
 
