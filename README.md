@@ -141,5 +141,5 @@ Default values are into `[ ]`
 
 Amir Rezvani
 
-<a href="https://www.linkedin.com/in/abolfazl2647"><img src="https://github.com/abolfazl2647/Rentaly/blob/master/Gifs/linkedin.png" alt="Amir Rezvani Linkedin profile" align="right" width="32" height="32"/></a>
+<a href="https://www.linkedin.com/in/abolfazl-r-8ab17594/"><img src="https://github.com/abolfazl2647/Rentaly/blob/master/Gifs/linkedin.png" alt="Amir Rezvani Linkedin profile" align="right" width="32" height="32"/></a>
 <a href="mailto:rezvani.frontdev@gmail.com"><img src="https://github.com/abolfazl2647/Rentaly/blob/master/Gifs/contact.png" alt="Amir Rezvani email address" align="right" width="32" height="32"/></a>
