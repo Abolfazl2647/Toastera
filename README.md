@@ -8,9 +8,22 @@ Muinotify has an imperative API that makes it easy to display snackbars, without
 
 ### Installing:
 
+you need to install @MUI first so:
+
 ```
-npm install rezvani-muinotifier
-yarn add rezvani-muinotifier
+// with npm
+npm install @mui/material @emotion/react @emotion/styled
+
+// with yarn
+yarn add @mui/material @emotion/react @emotion/styled
+
+```
+
+and then
+
+```
+npm install muinotify
+yarn add muinotify
 
 ```
 
@@ -19,17 +32,17 @@ yarn add rezvani-muinotifier
 React Component in render method:
 You Don't have to use options
 
+wrap MuiNotifyProvider over your App.
+
 ```
 import React from "react";
-import { MuiNotifyProvider, withNotifier } from "muinotify";
+import { MuiNotifyProvider } from "muinotify";
 
 class App extends Component {
 
   render() {
     return (
       <div className="App_Wrapper">
-
-
       <MuiNotifyProvider
          maxNotif={4}
         // preventDuplicate
@@ -51,7 +64,14 @@ class App extends Component {
 }
 
 export default App;
+```
 
+then use withNotifier or useNotifier to fire up you alert
+
+```
+// with hooks
+import React from "react";
+import { useNotifier } from "muinotify";
 
 const Application = () => {
 const { notifier } = useNotifier();
@@ -68,9 +88,29 @@ const { notifier } = useNotifier();
       </button>
   )
 };
+```
 
+```
+// with HOC
+import React from "react";
+import { withNotifier } from "muinotify";
 
+const Application = ({ notifier }) => {
+  return (
+    <button
+        onClick={() => {
+          notifier(`hello world`, {
+            isPersist: false,
+            variant: "success",
+          });
+        }}
+      >
+        Click to show Alert
+      </button>
+  )
+};
 
+export defautl withNotifier(Application);
 ```
 
 <hr>
