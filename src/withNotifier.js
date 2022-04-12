@@ -1,3 +1,4 @@
+import React from "react";
 import Notifier from "./context";
 
 const withNotifier = (WrapperComponent) => {

@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "@emotion/styled";
 import Stack from "@mui/material/Stack";
 import NotifyItem from "./notifyItem";
