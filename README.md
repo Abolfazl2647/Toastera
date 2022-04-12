@@ -9,7 +9,6 @@
 
 Muinotify has an imperative API that makes it easy to display snackbars, without having to handle their open/close state. It also enables you to stack them on top of one another (although this is discouraged by the Material Design guidelines).
 
-\*\* in near future you can add your own components to replacing Material UI Components if you want.
 
 ### Installing:
 
