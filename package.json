@@ -1,6 +1,6 @@
 {
   "name": "muinotify",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "muinotify has an imperative API that makes it easy to display snackbars, without having to handle their open/close state. It also enables you to stack them on top of one another (although this is discouraged by the Material Design guidelines).",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
