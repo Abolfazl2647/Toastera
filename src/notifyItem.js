@@ -68,7 +68,7 @@ const NotifyItem = (props) => {
           severity={(options && options.variant) || defaultSeverity}
           {...AlertProps}
         >
-          {message + id}
+          {message}
         </Alert>
       )}
     </TransitionComponent>
