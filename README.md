@@ -10,8 +10,10 @@
 Muinotify has an imperative API that makes it easy to display snackbars, without having to handle their open/close state. It also enables you to stack them on top of one another (although this is discouraged by the Material Design guidelines).
 
 ### Demo
-[codesandbox](https://codesandbox.io/s/brave-bush-0ikucu?file=/src/App.js)
 
+<img src="./public/demo-muinotify.png" alt="Amir Rezvani email address" height='auto' style='margin:0 auto;display: block'/>
+
+[codesandbox](https://codesandbox.io/s/brave-bush-0ikucu?file=/src/App.js)
 
 ### Installing:
 
