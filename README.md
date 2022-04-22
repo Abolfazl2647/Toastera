@@ -7,7 +7,7 @@
 
 #### Notification System with @MUI Alerts - ReactJs
 
-Muinotify has an imperative API that makes it easy to display snackbars, without having to handle their open/close state. It also enables you to stack them on top of one another (although this is discouraged by the Material Design guidelines).
+Muinotify has an imperative API that makes it easy to display snackbars by combining Alert and Snack components, without having to handle their open/close state. It also enables you to stack them on top of one another (although this is discouraged by the Material Design guidelines).
 
 ### Demo
 
