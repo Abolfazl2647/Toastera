@@ -2,6 +2,8 @@ import React from "react";
 import { useRef, useState, useEffect, useCallback, memo } from "react";
 import Alert from "@mui/material/Alert";
 
+// this file shows alert itselfs
+
 function useIsMounted() {
   const isMounted = useRef(false);
 
