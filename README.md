@@ -1,4 +1,4 @@
-# muinotify
+# UseAlert
 
 <a href="https://www.npmjs.com/package/muinotify"><img alt="Downloads" src="http://img.shields.io/npm/dm/muinotify.svg"></a>
 [![npm](https://img.shields.io/npm/dt/muinotify.svg)](https://www.npmjs.com/package/muinotify)
