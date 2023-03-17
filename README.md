@@ -1,9 +1,10 @@
-# useAlert
-
+# Toastera
 <a href="https://www.npmjs.com/package/muinotify"><img alt="Downloads" src="http://img.shields.io/npm/dm/muinotify.svg"></a>
 [![npm](https://img.shields.io/npm/dt/muinotify.svg)](https://www.npmjs.com/package/muinotify)
 <a href="https://www.npmjs.com/package/muinotify"><img alt="npm version" src="https://badge.fury.io/js/muinotify.svg"></a>
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+<img src="./public/Toastera.jpg" alt="Amir Rezvani email address" height='auto' style='margin:0 auto;display: block'/>
 
 #### Notification System with @MUI Alerts - ReactJs
 
@@ -11,9 +12,7 @@ Muinotify has an imperative API that makes it easy to display snackbars by combi
 
 ### Demo
 
-<img src="./public/Toastera.jpg" alt="Amir Rezvani email address" height='auto' style='margin:0 auto;display: block'/>
-
-[DEMO - codesandbox](https://codesandbox.io/s/brave-bush-0ikucu?file=/src/App.js)
+[A demo is worth a thousand words - codesandbox](https://codesandbox.io/s/brave-bush-0ikucu?file=/src/App.js)
 
 ### Installing:
 
