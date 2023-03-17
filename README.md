@@ -11,7 +11,7 @@ Muinotify has an imperative API that makes it easy to display snackbars by combi
 
 ### Demo
 
-<img src="./public/demo-muinotify.png" alt="Amir Rezvani email address" height='auto' style='margin:0 auto;display: block'/>
+<img src="./public/Toastera.jpg" alt="Amir Rezvani email address" height='auto' style='margin:0 auto;display: block'/>
 
 [DEMO - codesandbox](https://codesandbox.io/s/brave-bush-0ikucu?file=/src/App.js)
 
